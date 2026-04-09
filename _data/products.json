@@ -1,13 +1,101 @@
 {
   "products": [
     {
+      "house": "Creed",
+      "name": "Erolfa",
+      "size": 100,
+      "total": 100,
+      "notes": "Near Full",
+      "inclusions": "No Box",
+      "image": "",
+      "featured": false,
+      "sold": false
+    },
+    {
+      "house": "Creed",
+      "name": "Royal Mayfair 2016",
+      "size": 120,
+      "total": 120,
+      "notes": "Near Full",
+      "inclusions": "No Box",
+      "image": "",
+      "featured": false,
+      "sold": false
+    },
+    {
+      "house": "Creed",
+      "name": "Himalaya (Old Batch)",
+      "size": 50,
+      "total": 75,
+      "notes": "66%",
+      "inclusions": "With Box & Cellophane",
+      "image": "",
+      "featured": true,
+      "sold": false
+    },
+    {
+      "house": "Creed",
+      "name": "Erolfa (Old Batch)",
+      "size": 50,
+      "total": 75,
+      "notes": "66%",
+      "inclusions": "Box Only",
+      "image": "",
+      "featured": false,
+      "sold": false
+    },
+    {
+      "house": "Creed",
+      "name": "Virgin Island Water 2015-2016",
+      "size": 60,
+      "total": 125,
+      "notes": "48%",
+      "inclusions": "No Box",
+      "image": "virgin-island-water.png",
+      "featured": false,
+      "sold": true
+    },
+    {
+      "house": "Creed",
+      "name": "Mill\u00e9sime Imp\u00e9rial",
+      "size": 95,
+      "total": 120,
+      "notes": "Near Full",
+      "inclusions": "No Box",
+      "image": "millesime-imperial.png",
+      "featured": false,
+      "sold": true
+    },
+    {
+      "house": "Creed",
+      "name": "Original Vetiver 2012",
+      "size": 50,
+      "total": 125,
+      "notes": "40%",
+      "inclusions": "No Box",
+      "image": "original-vetiver.png",
+      "featured": false,
+      "sold": true
+    },
+    {
+      "house": "Creed",
+      "name": "Silver Mountain Water 2011",
+      "size": 60,
+      "total": 125,
+      "notes": "48%",
+      "inclusions": "No Box",
+      "image": "",
+      "featured": false,
+      "sold": true
+    },
+    {
       "house": "Parfums de Marly",
       "name": "Althair",
-      "size": 80,
+      "size": 95,
       "total": 125,
       "notes": "76%",
       "inclusions": "No Box",
-      "image": "",
+      "image": "althair.png",
       "featured": false,
       "sold": false
     },
@@ -266,7 +354,7 @@
     },
     {
       "house": "Louis Vuitton",
-      "name": "Météore BO",
+      "name": "M\u00e9t\u00e9ore BO",
       "size": 80,
       "total": 100,
       "notes": "80%",
@@ -277,7 +365,7 @@
     },
     {
       "house": "Louis Vuitton",
-      "name": "Météore",
+      "name": "M\u00e9t\u00e9ore",
       "size": 70,
       "total": 100,
       "notes": "70%",
@@ -285,94 +373,6 @@
       "image": "",
       "featured": false,
       "sold": false
-    },
-    {
-      "house": "Creed",
-      "name": "Erolfa",
-      "size": 100,
-      "total": 100,
-      "notes": "Near Full",
-      "inclusions": "No Box",
-      "image": "",
-      "featured": false,
-      "sold": false
-    },
-    {
-      "house": "Creed",
-      "name": "Royal Mayfair 2016",
-      "size": 120,
-      "total": 120,
-      "notes": "Near Full",
-      "inclusions": "No Box",
-      "image": "",
-      "featured": false,
-      "sold": false
-    },
-    {
-      "house": "Creed",
-      "name": "Himalaya (Old Batch)",
-      "size": 50,
-      "total": 75,
-      "notes": "66%",
-      "inclusions": "With Box & Cellophane",
-      "image": "",
-      "featured": true,
-      "sold": false
-    },
-    {
-      "house": "Creed",
-      "name": "Erolfa (Old Batch)",
-      "size": 50,
-      "total": 75,
-      "notes": "66%",
-      "inclusions": "Box Only",
-      "image": "",
-      "featured": false,
-      "sold": false
-    },
-    {
-      "house": "Creed",
-      "name": "Virgin Island Water 2015-2016",
-      "size": 60,
-      "total": 125,
-      "notes": "48%",
-      "inclusions": "No Box",
-      "image": "virgin-island-water.png",
-      "featured": false,
-      "sold": true
-    },
-    {
-      "house": "Creed",
-      "name": "Millésime Impérial",
-      "size": 95,
-      "total": 120,
-      "notes": "Near Full",
-      "inclusions": "No Box",
-      "image": "millesime-imperial.png",
-      "featured": false,
-      "sold": true
-    },
-    {
-      "house": "Creed",
-      "name": "Original Vetiver 2012",
-      "size": 50,
-      "total": 125,
-      "notes": "40%",
-      "inclusions": "No Box",
-      "image": "original-vetiver.png",
-      "featured": false,
-      "sold": true
-    },
-    {
-      "house": "Creed",
-      "name": "Silver Mountain Water 2011",
-      "size": 60,
-      "total": 125,
-      "notes": "48%",
-      "inclusions": "No Box",
-      "image": "",
-      "featured": false,
-      "sold": true
     },
     {
       "house": "Tom Ford",
@@ -563,7 +563,7 @@
     },
     {
       "house": "Paco Rabanne",
-      "name": "1 Million Privé",
+      "name": "1 Million Priv\u00e9",
       "size": 100,
       "total": 100,
       "notes": "Full / Brand New",
@@ -685,13 +685,13 @@
     {
       "house": "Guerlain",
       "name": "Honey Tobacco",
-      "size": 190,
-      "total": 200,
+      "size": 100,
+      "total": 100,
       "notes": "Near Full",
       "inclusions": "No Box",
-      "image": "guerlain-honey-tobacco.png",
-      "featured": true,
-      "sold": false
+      "image": "",
+      "featured": false,
+      "sold": true
     }
   ]
 }
