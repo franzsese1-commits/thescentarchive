@@ -1,9 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: franzsese1-commits/thescentarchive
   branch: main
 
-# Images uploaded through the CMS go straight into /bottles
-# so they match the path convention the site already uses.
 media_folder: "bottles"
 public_folder: "bottles"
 
@@ -32,6 +31,6 @@ collections:
               - { name: "total", label: "Bottle total ml", widget: "number", value_type: "int", min: 0, default: 100 }
               - { name: "notes", label: "Fill notes (e.g. 'Near Full', '80%')", widget: "string", default: "Near Full" }
               - { name: "inclusions", label: "Inclusions (e.g. 'No Box', 'With Box & Cellophane')", widget: "string", default: "No Box" }
-              - { name: "image", label: "Product image", widget: "image", required: false, media_library: { config: { multiple: false } } }
+              - { name: "image", label: "Product image", widget: "image", required: false }
               - { name: "featured", label: "Featured (Top Pick)", widget: "boolean", default: false, required: false }
               - { name: "sold", label: "Sold (move to archive)", widget: "boolean", default: false, required: false }
