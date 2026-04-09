@@ -2,8 +2,6 @@ backend:
   name: github
   repo: franzsese1-commits/thescentarchive
   branch: main
-  auth_type: pkce
-  app_id: YOUR_CLIENT_ID_HERE
 
 media_folder: "bottles"
 public_folder: "bottles"
