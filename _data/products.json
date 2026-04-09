@@ -688,8 +688,8 @@
       "notes": "Near Full",
       "total": 100,
       "name": "Honey Tobacco",
-      "featured": false,
-      "sold": true,
+      "featured": true,
+      "sold": false,
       "inclusions": "No Box",
       "image": "bottles/wq.png"
     }
