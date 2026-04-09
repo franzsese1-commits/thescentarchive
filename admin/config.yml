@@ -1,0 +1,37 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Images uploaded through the CMS go straight into /bottles
+# so they match the path convention the site already uses.
+media_folder: "bottles"
+public_folder: "bottles"
+
+collections:
+  - name: "catalog"
+    label: "Catalog"
+    files:
+      - name: "products"
+        label: "Products"
+        file: "_data/products.json"
+        description: "Add, edit, or remove fragrances. Toggle Sold and Featured here."
+        fields:
+          - name: "products"
+            label: "Products"
+            label_singular: "Product"
+            widget: "list"
+            summary: "{{fields.house}} — {{fields.name}} ({{fields.size}}/{{fields.total}}ml)"
+            fields:
+              - { name: "house", label: "House / Brand", widget: "select", options: [
+                  "Parfums de Marly","MFK","Louis Vuitton","Creed","Tom Ford","Xerjoff",
+                  "YSL","Chanel","Diptyque","Sospiro","Paco Rabanne","Initio","Memo Paris",
+                  "Office","SHL","Byredo","Amouage","Maison Margiela","Prada","Nishane","Guerlain"
+                ] }
+              - { name: "name", label: "Name", widget: "string" }
+              - { name: "size", label: "Current ml", widget: "number", value_type: "int", min: 0, default: 100 }
+              - { name: "total", label: "Bottle total ml", widget: "number", value_type: "int", min: 0, default: 100 }
+              - { name: "notes", label: "Fill notes (e.g. 'Near Full', '80%')", widget: "string", default: "Near Full" }
+              - { name: "inclusions", label: "Inclusions (e.g. 'No Box', 'With Box & Cellophane')", widget: "string", default: "No Box" }
+              - { name: "image", label: "Product image", widget: "image", required: false, media_library: { config: { multiple: false } } }
+              - { name: "featured", label: "Featured (Top Pick)", widget: "boolean", default: false, required: false }
+              - { name: "sold", label: "Sold (move to archive)", widget: "boolean", default: false, required: false }
