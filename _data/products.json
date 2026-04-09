@@ -684,14 +684,14 @@
     },
     {
       "house": "Guerlain",
-      "size": 100,
+      "size": 190,
       "notes": "Near Full",
-      "total": 100,
+      "total": 200,
       "name": "Honey Tobacco",
       "featured": true,
       "sold": false,
       "inclusions": "No Box",
-      "image": "bottles/wq.png"
+      "image": "guerlain-honey-tobacco.png"
     }
   ]
 }
